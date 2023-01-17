@@ -1,0 +1,20 @@
+[
+    {
+        "id_articulo": 1,
+        "nombre_articulo": "Articulo 1",
+        "descripcion_articulo": "descripcion del primer articulo",
+        "imagen_articulo": "https://drive.google.com/file/d/11oemQYJvt-LkZ5-F7IDu_HODfCyAA4_p/view"
+    },
+    {
+        "id_articulo": 2,
+        "nombre_articulo": "Articulo 2",
+        "descripcion_articulo": "descripcion del segundo articulo",
+        "imagen_articulo": "https://drive.google.com/file/d/11oemQYJvt-LkZ5-F7IDu_HODfCyAA4_p/view"
+    },
+    {
+        "id_articulo": 3,
+        "nombre_articulo": "Articulo 3",
+        "descripcion_articulo": "descripcion del tercer articulo",
+        "imagen_articulo": "https://drive.google.com/file/d/11oemQYJvt-LkZ5-F7IDu_HODfCyAA4_p/view"
+    }
+]

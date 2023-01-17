@@ -1,0 +1,18 @@
+---
+pagination:
+  data: articulosjson
+  size: 1
+  addAllPagesToCollections: true
+  alias: articulosjson
+permalink: "/articulosjson/{{ articulosjson.id_articulo }}/{{ articulosjson.nombre_articulo | slug }}/index.html"
+tags:
+  - articulosjson
+---
+{% extends "src/base.njk"%}
+
+{% block head %}
+  <title>Articulo | {{ articulosjson.nombre_articulo  }}</title>
+{% endblock %}
+
+{% block content%}
+{% endblock %}
