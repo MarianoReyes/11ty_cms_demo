@@ -7,9 +7,9 @@ media_folder: "images/posts" # Media files will be stored in the repo under src/
 public_folder: "/images/posts" # The src attribute for uploaded media will begin with assets/images/posts
 
 collections:
-  - name: "novedades" # Used in routes, e.g., /admin/collections/blog
-    label: "Novedades" # Used in the UI
-    folder: "src/novedades" # The path to the folder where the documents are stored
+  - name: "articulo" # Used in routes, e.g., /admin/collections/blog
+    label: "Articulo" # Used in the UI
+    folder: "src/articulos" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     editor:
@@ -18,8 +18,6 @@ collections:
       - { name: "title", label: "Title" }
       - { label: "Image", name: "image", widget: "image" }
       - { name: "description", label: "Description" }
-      - { name: "autor", label: "Autor" }
-      - { name: "correo", label: "Correo" }
       - { name: "date", label: "Date", widget: "datetime" }
       - { name: "body", label: "Body", widget: "markdown" }
       - {
