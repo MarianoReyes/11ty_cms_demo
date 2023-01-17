@@ -1,0 +1,4 @@
+{
+    "permalink": "articulo/{{ page.fileSlug }}/index.html",
+    "tags": "articulo"
+}
